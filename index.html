@@ -25,15 +25,22 @@
     aria-levelé usado para indicar o nível de autoridade do menu.
 -->
     <header>
+      
         <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
         <h1>Meu Site</h1>
-      <nav role="navigation" aria-level="main navigation">
-        <ul role="menu">
-          <li><a href="#" role="menuitem">CURSOS</a></li>
-          <li><a href="#" role="menuitem">BLOG</a></li>
-          <li><a href="#" role="menuitem">CONTATO</a></li>
-        </ul>
-      </nav>
+      
+        <nav role="navigation" aria-level="main navigation">
+      
+            <ul role="menu">
+    
+                <li><a href="#" role="menuitem">CURSOS</a></li>
+                <li><a href="#" role="menuitem">BLOG</a></li>
+                <li><a href="#" role="menuitem">CONTATO</a></li>
+        
+            </ul>
+    
+        </nav>
+    
     </header>
 <!--
     O conteúdo principal do site é definido dentro da tag <main>. Existem 
@@ -42,7 +49,8 @@
     uma imagem e um conteúdo de descrição <article>.
 -->
     <main role="main">
-        <div>
+
+        <div class="1">
             <article>
                 <h2>Educação <br> Financeira <br>
                     é tudo de bom
@@ -53,11 +61,13 @@
                 <button aria-label="Button A" aria-labelledby="button-label">
                     quero saber mais
                 </button>
-                <img src="imagem.jpg" alt="Descrição da imagem" srcset=""><br><br>
             </article>
+            <section>
+                <img src="imagem.jpg" alt="Descrição da imagem" srcset=""><br><br>
+            </section>
         </div>
 
-        <div>
+        <div class="2">
             <section class="card1">
                 <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
                 <article class="card-body">
@@ -84,7 +94,7 @@
             </section>
         </div>
       
-        <div>
+        <div class="3">
             <h2>O QUE FALAM SOBRE NÓS</h2>
             <section class="card4">
                 <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
@@ -116,7 +126,7 @@
             </section>
         </div>
         
-        <div>
+        <div class="4">
             <h2>MAIS CONTEÚDO PARA VOCÊ</h2>
             <section class="card8">
                 <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
@@ -147,17 +157,25 @@
     e algumas informações básicas sobre o site, seguidos por uma lista de 
     links usando uma tag <ul>.
 -->
-    <footer>
-            <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
-            <label for="">dindin</label>
-            <p>educação financeira</p>
-            <ul>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTATO</a></li>
-            </ul>
-            <button aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button>
-            <button aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button>
+        <footer>
+            <div>
+                <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
+                <label for="">dindin</label>
+                <p>educação financeira</p>
+            </div>
+            
+            <div>
+                <ul>
+                    <li><a href="#">CURSOS</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTATO</a></li>
+                </ul>
+            </div>
+            
+            <div>
+                <button aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button>
+                <button aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button>
+            </div>
         </footer>
     </body>
 <!--
