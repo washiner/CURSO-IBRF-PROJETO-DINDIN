@@ -6,178 +6,194 @@
     definida como "pt-br" usando o atributo "lang".
 -->
 <!DOCTYPE html>
-    <html lang="pt-br">
+<html lang="pt-br">
 <!--
     Dentro do <head>, é especificado o conjunto de caracteres usados ​​pelo 
     documento e o título da página é definido com uma tag <title>. Em 
     seguida, o conteúdo do corpo do documento é definido dentro da tag 
     <body>.
 -->
-    <head>
-        <meta charset="UTF-8">
-        <title>Exemplo de código semântico HTML</title>
-    </head>
-    <body>
-<!--
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplo de código semântico HTML</title>
+    <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="footer.css" />
+    <script defer src="scripts.js"></script>
+</head>
+
+<body>
+    <!--
     Dentro da tag <header>, há um logotipo e um menu de navegação que 
     utiliza as tags <nav>e <ul>para criar uma lista de links. O atributo 
     roleé usado para indicar o papel da lista, enquanto o atributo 
     aria-levelé usado para indicar o nível de autoridade do menu.
 -->
-    <header>
-      
-        <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
-        <h1>Meu Site</h1>
-      
-        <nav role="navigation" aria-level="main navigation">
-      
-            <ul role="menu">
-    
+    <header class="header">
+        <a href="" class="logo">
+            <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
+            <label for="">Meu Site</label>
+        </a>
+        <nav role="navigation" aria-level="main navigation" class="nav">
+            <button class="btn-menu" id="menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                Menu<span class="hamburger"></span>
+            </button>
+            <ul role="menu" class="menu">
                 <li><a href="#" role="menuitem">CURSOS</a></li>
                 <li><a href="#" role="menuitem">BLOG</a></li>
                 <li><a href="#" role="menuitem">CONTATO</a></li>
-        
             </ul>
-    
         </nav>
-    
     </header>
-<!--
+
+    <!--
     O conteúdo principal do site é definido dentro da tag <main>. Existem 
     várias seções de conteúdo, cada uma envolvida em uma tag <section>. 
     Cada seção contém um título <h2>, um ou mais cartões <section>que possuem 
     uma imagem e um conteúdo de descrição <article>.
 -->
     <main role="main">
-
-        <div class="1">
+        <div class="grid1">
             <article>
-                <h2>Educação <br> Financeira <br>
-                    é tudo de bom
-                </h2>
-                <p>Vem comigo que te mostro <br>
-                    por onde começar
+                <h1>Educação <br> Financeira <br> é tudo de bom
+                </h1>
+                <p>Vem comigo que te mostro <br> por onde começar
                 </p>
-                <button aria-label="Button A" aria-labelledby="button-label">
+                <button class="button2" aria-label="Button A" aria-labelledby="button-label">
                     quero saber mais
                 </button>
             </article>
             <section>
-                <img src="imagem.jpg" alt="Descrição da imagem" srcset=""><br><br>
+                <img class="" src="img/1image.svg" alt="Descrição da imagem" srcset=""><br><br>
             </section>
         </div>
 
-        <div class="2">
-            <section class="card1">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <h3>Título do card</h3>
-                  <p>Descrição do card</p>
-                  <button aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                </article>
-            </section>
-            <section class="card2">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <h3>Título do card</h3>
-                  <p>Descrição do card</p>
-                  <button aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                </article>
-            </section>
-            <section class="card3">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <h3>Título do card</h3>
-                  <p>Descrição do card</p>
-                  <button aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                </article>
-            </section>
+        <div class="div_F7">
+            <div class="grid1">
+                <section>
+                    <img src="img/2image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <h3>Título do card</h3>
+                        <p>Descrição do card</p>
+                        <button class="button1" aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
+                    </article>
+                </section>
+                <section>
+                    <img src="img/3image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <h3>Título do card</h3>
+                        <p>Descrição do card</p>
+                        <button class="button1" aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
+                    </article>
+                </section>
+                <section>
+                    <img src="img/4image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <h3>Título do card</h3>
+                        <p>Descrição do card</p>
+                        <button class="button1" aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
+                    </article>
+                </section>
+            </div>
         </div>
-      
-        <div class="3">
+        <div>
             <h2>O QUE FALAM SOBRE NÓS</h2>
-            <section class="card4">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <p>Descrição do card</p>
-                  <label for=""></label>
-                </article>
-            </section>
-            <section class="card5">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <p>Descrição do card</p>
-                  <label for=""></label>
-                </article>
-            </section>
-            <section class="card6">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <p>Descrição do card</p>
-                    <label for=""></label>
-                </article>
-            </section>
-            <section class="card7">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <p>Descrição do card</p>
-                    <label for=""></label>
-                </article>
-            </section>
+            <div class="grid3">
+                <section>
+                    <img class="desenho" src="img/5image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <p>Descrição do card</p>
+                        <label for=""></label>
+                    </article>
+                </section>
+                <section>
+                    <img class="desenho" src="img/6image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <p>Descrição do card</p>
+                        <label for=""></label>
+                    </article>
+                </section>
+                <section>
+                    <img class="desenho" src="img/7image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <p>Descrição do card</p>
+                        <label for=""></label>
+                    </article>
+                </section>
+                <section>
+                    <img class="desenho" src="img/8image.svg" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <p>Descrição do card</p>
+                        <label for=""></label>
+                    </article>
+                </section>
+            </div>
         </div>
-        
-        <div class="4">
+
+        <div class="div_F7">
             <h2>MAIS CONTEÚDO PARA VOCÊ</h2>
-            <section class="card8">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <h2>Título do card</h2>
-                    <p>Descrição do card</p>
-                </article>
-            </section>
-            <section class="card9">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <h2>Título do card</h2>
-                    <p>Descrição do card</p>
-                </article>
-            </section>
-            <section class="card10">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <h2>Título do card</h2>
-                    <p>Descrição do card</p>
-                </article>
-            </section>
-            <button aria-label="Botão do card" aria-labelledby="button-label">ver todos os posts</button>
+            <div class="grid1">
+                <section>
+                    <img class="foto" src="https://media.istockphoto.com/id/1405522825/pt/foto/caring-young-african-american-parents-teaching-small-daughter-saving-money.jpg?s=2048x2048&w=is&k=20&c=O1gJBQj09DmyIU8hCKGGdJ5aI5YKEyI9Kd8Vdj8H7G0=" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <h2>Título do card</h2>
+                        <p>Descrição do card</p>
+                    </article>
+                </section>
+                <section>
+                    <img class="foto" src="https://cdn.pixabay.com/photo/2016/01/10/19/02/money-1132279_1280.png" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <h2>Título do card</h2>
+                        <p>Descrição do card</p>
+                    </article>
+                </section>
+                <section>
+                    <img class="foto" src="https://media.istockphoto.com/id/465727260/pt/foto/guardar-para-a-educa%C3%A7%C3%A3o.jpg?s=2048x2048&w=is&k=20&c=xrofjdz8zZpX6AnHQCdI4mI5t8db-DrsU8XDNN2sE7Y=" alt="Descrição da imagem do card">
+                    <article class="card-body">
+                        <h2>Título do card</h2>
+                        <p>Descrição do card</p>
+                    </article>
+                </section>
+            </div>
+            <button class="center button2" aria-label="Botão do card" aria-labelledby="button-label">ver todos os posts</button>
         </div>
+        <button class="center button2" aria-label="Botão do card" aria-labelledby="button-label">ver todos os posts</button>
     </main>
-<!--
+    <!--
     Finalmente, o rodapé é definido dentro da tag <footer>. Há um logotipo
     e algumas informações básicas sobre o site, seguidos por uma lista de 
     links usando uma tag <ul>.
 -->
-        <footer>
-            <div>
-                <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
-                <label for="">dindin</label>
-                <p>educação financeira</p>
-            </div>
-            
-            <div>
-                <ul>
-                    <li><a href="#">CURSOS</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTATO</a></li>
-                </ul>
-            </div>
-            
-            <div>
-                <button aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button>
-                <button aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button>
-            </div>
-        </footer>
-    </body>
+    <footer>
+        <div class="div_rod">
+            <img src="img/dindin-logo-white.svg" alt="Descrição da imagem" srcset="" class="img_rod">
+            <ul>
+                <li><label for="">dindin</label></li>
+                <li>
+                    <p>educação financeira</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="div_rod">
+            <ul>
+                <li><a href="#">CURSOS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTATO</a></li>
+            </ul>
+        </div>
+
+        <div class="div_rod">
+            <ul>
+                <li><button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button></li>
+                <li><button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button></li>
+            </ul>
+        </div>
+    </footer>
+</body>
 <!--
     As imagens são adicionadas usando uma tag <img>. Atributos como altsão 
     usados ​​para descrever uma imagem para fins de acessibilidade, enquanto o
@@ -190,4 +206,5 @@
     atributo aria-labelledbyé usado para vincular a descrição do botão a uma 
     etiqueta correspondente.
 -->
+
 </html>

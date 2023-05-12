@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*
+#68FEEF
+#5ECEE6
+#74C1FC
+#5E87E6
+*/
+
+:root {
+    --head_footer: #2E948A;
+    --head_footer_hover: #4ad3c5;
+    --background0: #E5E5E5;
+    --background1: #F7F7F7;
+    --bottom_titulo_rosa: #FF4081;
+    --titulo_verde: #009688;
+    --p: #000000;
+    --a: #FDFDFD;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: var(--head_footer);
+    /* Define a cor de fundo do elemento footer com a variável CSS --head_footer */
+    color: var(--a);
+    /* Define a cor do texto do elemento footer com a variável CSS --a */
+    display: flex;
+    /* Define o elemento footer como um flex container */
+    justify-content: space-around;
+    /* Define a distribuição dos elementos filhos do flex container do footer com o espaço em volta deles */
+    padding: 10px 15px;
+    /* Define o preenchimento interno (padding) do elemento footer */
+}
+
+footer div label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Define a caixa de modelagem para incluir a largura e o preenchimento no cálculo da largura total do elemento */
+    font-family: 'Ubuntu';
+    /* Define a fonte do texto do elemento label dentro de um div dentro do footer */
+    font-style: normal;
+    font-size: 66px;
+    line-height: 76px;
+    /* Define o tamanho e o espaçamento das linhas do texto do elemento label */
+}
+
+footer div p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Ubuntu;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 22px;
+    /* Define o tamanho e o espaçamento das linhas do texto do elemento p dentro de um div dentro do footer */
+}
+
+.div_rod {
+    display: flex;
+    /* Define o elemento .div_rod como um flex container */
+    border: 1px solid #FFF;
+    /* Define a borda do elemento .div_rod com 1 pixel de espessura e a cor branca (#FFF) */
+    width: 33.33%;
+    /* Define a largura do elemento .div_rod como 33.33% */
+    margin: 10px;
+    /* Define as margens externas do elemento .div_rod */
+    width: 800px;
+    /* Define a largura do elemento .div_rod como 800 pixels */
+}
+
+.img_rod {
+    width: 100px;
+    /* Define a largura da imagem dentro do elemento .div_rod como 100 pixels */
+    height: 100px;
+    /* Define a altura da imagem dentro do elemento .div_rod como 100 pixels */
+}
+
+.div_rod ul {
+    list-style: none;
+    /* Remove os marcadores padrão das listas não ordenadas dentro do elemento .div_rod */
+}
+
+.div_rod ul li {
+    margin: 10px 0;
+    /* Define as margens superior e inferior dos itens de lista dentro do elemento .div_rod */
+}
+
+.div_rod ul li a {
+    font-size: 16px;
+    /* Define o tamanho da fonte do texto dos links dentro dos itens de lista dentro do elemento .div_rod como 16 pixels */
+    text-transform: capitalize;
+    /* Define que o texto dos links deve ser exibido em maiúsculas */
+    color: var(--a);
+    /* Define a cor do texto dos links dentro dos itens de lista dentro do elemento .div_rod com a variável CSS --a */
+    text-decoration: none;
+    /* Remove a sublinhado padrão dos links dentro dos itens de lista dentro do elemento .div_rod */
+    font-weight: 300;
+    /* Define o peso da fonte do texto dos links dentro dos itens de lista dentro do elemento .div_rod como 300 */
+    display: block;
+    transition: all 0.3s ease;
+}
+
+@media (max-width:700px) {
+    .div_rod {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
