@@ -18,10 +18,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Exemplo de código semântico HTML</title>
-    <link rel="stylesheet" type="text/css" href="css/header.css" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
-    <link rel="stylesheet" type="text/css" href="footer.css" />
     <script defer src="scripts.js"></script>
 </head>
 
@@ -33,14 +31,13 @@
     aria-levelé usado para indicar o nível de autoridade do menu.
 -->
     <header class="header">
-        <a href="" class="logo">
-            <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
-            <label for="">Meu Site</label>
-        </a>
+        <div class="logo">
+            <a href="#">
+                <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
+            </a>
+            <h2>dindin</h2>
+        </div>
         <nav role="navigation" aria-level="main navigation" class="nav">
-            <button class="btn-menu" id="menu" aria-label="Abrir Menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-                Menu<span class="hamburger"></span>
-            </button>
             <ul role="menu" class="menu">
                 <li><a href="#" role="menuitem">CURSOS</a></li>
                 <li><a href="#" role="menuitem">BLOG</a></li>
@@ -56,129 +53,144 @@
     uma imagem e um conteúdo de descrição <article>.
 -->
     <main role="main">
-        <div class="grid1">
-            <article>
-                <h1>Educação <br> Financeira <br> é tudo de bom
-                </h1>
-                <p>Vem comigo que te mostro <br> por onde começar
-                </p>
-                <button class="button2" aria-label="Button A" aria-labelledby="button-label">
+        <section class="secao1">
+            <div class="container1">
+                <h1>Educação Financeira <br> é tudo de bom</h1>
+                <p>Vem comigo que te mostro <br> por onde começar</p>
+                <a class="button2" aria-label="Button A" aria-labelledby="button-label">
                     quero saber mais
-                </button>
-            </article>
-            <section>
-                <img class="" src="img/1image.svg" alt="Descrição da imagem" srcset=""><br><br>
-            </section>
-        </div>
-
-        <div class="div_F7">
-            <div class="grid1">
-                <section>
-                    <img src="img/2image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <h3>Título do card</h3>
-                        <p>Descrição do card</p>
-                        <button class="button1" aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                    </article>
-                </section>
-                <section>
-                    <img src="img/3image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <h3>Título do card</h3>
-                        <p>Descrição do card</p>
-                        <button class="button1" aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                    </article>
-                </section>
-                <section>
-                    <img src="img/4image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <h3>Título do card</h3>
-                        <p>Descrição do card</p>
-                        <button class="button1" aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                    </article>
-                </section>
+                </a>
             </div>
-        </div>
-        <div>
-            <h2>O QUE FALAM SOBRE NÓS</h2>
-            <div class="grid3">
-                <section>
+            <div class="container2">
+                <img class="" src="img/1image.svg" alt="Descrição da imagem" srcset="">
+            </div>
+        </section>
+
+
+
+        <section class="secao2">
+            <div class="cont1">
+                <img src="img/2image.svg" alt="Descrição da imagem do card">
+                <h2 class="title1">Investimentos para iniciantes</h2>
+                <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br> eu fugiat nulla pariatur.</p>
+                <button class="btn1" aria-label="Botão do card" aria-labelledby="button-label">Começar Agora</button>
+            </div>
+
+            <div class="cont2">
+                <img src="img/3image.svg" alt="Descrição da imagem do card">
+                <p class="title2">Poupando e rendendo</p>
+                <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br> eu fugiat nulla pariatur.</p>
+                <button class="btn2" aria-label="Botão do card" aria-labelledby="button-label">Começar Agora</button>
+            </div>
+
+            <div class="cont3">
+                <img src="img/4image.svg" alt="Descrição da imagem do card">
+                <p class="title3">Independencia financeira</p>
+                <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br> eu fugiat nulla pariatur.</p>
+                <button class="btn3" aria-label="Botão do card" aria-labelledby="button-label">Começar Agora</button>
+            </div>
+        </section>
+
+
+
+
+        <p class="titulo1">O QUE FALAM SOBRE NÓS</p>
+        <section class="secao3">
+            <div class="container-col1">
+                <div class="img1">
                     <img class="desenho" src="img/5image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <p>Descrição do card</p>
-                        <label for=""></label>
-                    </article>
-                </section>
-                <section>
-                    <img class="desenho" src="img/6image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <p>Descrição do card</p>
-                        <label for=""></label>
-                    </article>
-                </section>
-                <section>
-                    <img class="desenho" src="img/7image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <p>Descrição do card</p>
-                        <label for=""></label>
-                    </article>
-                </section>
-                <section>
-                    <img class="desenho" src="img/8image.svg" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <p>Descrição do card</p>
-                        <label for=""></label>
-                    </article>
-                </section>
-            </div>
-        </div>
+                </div>
+                <div class="card">
+                    <p class="card-text1">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text2">Wally, 25</p>
+                </div>
 
-        <div class="div_F7">
-            <h2>MAIS CONTEÚDO PARA VOCÊ</h2>
-            <div class="grid1">
-                <section>
-                    <img class="foto" src="https://media.istockphoto.com/id/1405522825/pt/foto/caring-young-african-american-parents-teaching-small-daughter-saving-money.jpg?s=2048x2048&w=is&k=20&c=O1gJBQj09DmyIU8hCKGGdJ5aI5YKEyI9Kd8Vdj8H7G0=" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <h2>Título do card</h2>
-                        <p>Descrição do card</p>
-                    </article>
-                </section>
-                <section>
-                    <img class="foto" src="https://cdn.pixabay.com/photo/2016/01/10/19/02/money-1132279_1280.png" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <h2>Título do card</h2>
-                        <p>Descrição do card</p>
-                    </article>
-                </section>
-                <section>
-                    <img class="foto" src="https://media.istockphoto.com/id/465727260/pt/foto/guardar-para-a-educa%C3%A7%C3%A3o.jpg?s=2048x2048&w=is&k=20&c=xrofjdz8zZpX6AnHQCdI4mI5t8db-DrsU8XDNN2sE7Y=" alt="Descrição da imagem do card">
-                    <article class="card-body">
-                        <h2>Título do card</h2>
-                        <p>Descrição do card</p>
-                    </article>
-                </section>
+
+                <div class="img2">
+                    <img class="desenho" src="img/6image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text3">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text4">Wally, 25</p>
+                </div>
             </div>
-            <button class="center button2" aria-label="Botão do card" aria-labelledby="button-label">ver todos os posts</button>
-        </div>
-        <button class="center button2" aria-label="Botão do card" aria-labelledby="button-label">ver todos os posts</button>
+
+            <div class="container-col2">
+
+                <div class="img3">
+                    <img class="desenho" src="img/7image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text5">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text6">Wally, 25</p>
+                </div>
+
+                <div class="img4">
+                    <img class="desenho" src="img/8image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text7">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text8">Wally, 25</p>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+
+
+        <section class="secao4">
+            <p class="titulo2">MAIS CONTEÚDO PARA VOCÊ</p>
+            <div class="linha1">
+                <div class="colum1">
+                    <img class="foto1" src="./img/img-finance1.jpg" alt="Descrição">
+                    <p class="titulo3">Itaque earum rerum</p>
+                    <p class="text9">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+                <div class="colum2">
+                    <img class="foto2" src="./img/img-finance2.jpg" alt="Descrição">
+                    <p class="titulo4">Itaque earum rerum</p>
+                    <p class="text10">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+                <div class="colum3">
+                    <img class="foto3" src="./img/img-finance3.jpg" alt="Descrição">
+                    <p class="titulo5">Itaque earum rerum</p>
+                    <p class="text11">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.</p>
+
+                </div>
+            </div>
+            <a class="button3" aria-label="Button A" aria-labelledby="button-label">
+                ver todos os posts
+            </a>
+        </section>
+
+
     </main>
     <!--
     Finalmente, o rodapé é definido dentro da tag <footer>. Há um logotipo
     e algumas informações básicas sobre o site, seguidos por uma lista de 
     links usando uma tag <ul>.
 -->
-    <footer>
-        <div class="div_rod">
-            <img src="img/dindin-logo-white.svg" alt="Descrição da imagem" srcset="" class="img_rod">
-            <ul>
-                <li><label for="">dindin</label></li>
-                <li>
-                    <p>educação financeira</p>
-                </li>
-            </ul>
-        </div>
 
-        <div class="div_rod">
+    <footer class="secao5">
+        <div class="logo">
+            <a href="#">
+                <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
+            </a>
+        </div>
+        <div class="colum4">
+            <p class="titulo6">dindin</p>
+            <p class="text02">educação financeira</p>
+        </div>
+        <div class="menus">
             <ul>
                 <li><a href="#">CURSOS</a></li>
                 <li><a href="#">BLOG</a></li>
@@ -186,11 +198,11 @@
             </ul>
         </div>
 
-        <div class="div_rod">
-            <ul>
-                <li><button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button></li>
-                <li><button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button></li>
-            </ul>
+        <div class="botoes">
+
+            <button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button></li>
+            <button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button>
+
         </div>
     </footer>
 </body>
