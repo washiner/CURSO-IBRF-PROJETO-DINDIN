@@ -21,6 +21,9 @@
     <link rel="stylesheet" href="./style.css">
     <title>Exemplo de código semântico HTML</title>
     <script defer src="scripts.js"></script>
+    <script defer src="contato.html"></script>
+    <script defer src="blog.html"></script>
+    <script defer src="cursos.html"></script>
 </head>
 
 <body>
@@ -35,13 +38,13 @@
             <a href="#">
                 <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
             </a>
-            <h2>dindin</h2>
+            <p>dindin</p>
         </div>
         <nav role="navigation" aria-level="main navigation" class="nav">
             <ul role="menu" class="menu">
-                <li><a href="#" role="menuitem">CURSOS</a></li>
-                <li><a href="#" role="menuitem">BLOG</a></li>
-                <li><a href="#" role="menuitem">CONTATO</a></li>
+                <li><a href="./cursos.html" role="menuitem">CURSOS</a></li>
+                <li><a href="./blog.html" role="menuitem">BLOG</a></li>
+                <li><a href="./contato.html" role="menuitem">CONTATO</a></li>
             </ul>
         </nav>
     </header>
@@ -65,8 +68,6 @@
                 <img class="" src="img/1image.svg" alt="Descrição da imagem" srcset="">
             </div>
         </section>
-
-
 
         <section class="secao2">
             <div class="cont1">
@@ -142,11 +143,7 @@
                 </div>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-
-
+      
         <section class="secao4">
             <p class="titulo2">MAIS CONTEÚDO PARA VOCÊ</p>
             <div class="linha1">
@@ -180,31 +177,34 @@
     links usando uma tag <ul>.
 -->
 
-    <footer class="secao5">
-        <div class="logo">
-            <a href="#">
-                <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
-            </a>
-        </div>
-        <div class="colum4">
-            <p class="titulo6">dindin</p>
-            <p class="text02">educação financeira</p>
-        </div>
-        <div class="menus">
-            <ul>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTATO</a></li>
-            </ul>
-        </div>
+<footer>
+    <div class="div_rod">
+        <img src="img/dindin-logo-white.svg" alt="Descrição da imagem" srcset="" class="img_rod">
+        <ul>
+            <li>
+                <p class="texto"><label for="">dindin</label> <br> educação financeira</p>
+            </li>
+            <li>
+                <br> educação financeira</p>
+            </li>
+        </ul>
+    </div>
 
-        <div class="botoes">
+    <div class="div_rod">
+        <ul>
+            <li><a href="#">CURSOS</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTATO</a></li>
+        </ul>
+    </div>
 
-            <button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button></li>
-            <button class="buttonfooter" aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button>
-
-        </div>
-    </footer>
+    <div class="div_rod">
+        <ul>
+            <li><button aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button></li>
+            <li><button aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button></li>
+        </ul>
+    </div>
+</footer>
 </body>
 <!--
     As imagens são adicionadas usando uma tag <img>. Atributos como altsão 
