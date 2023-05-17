@@ -6,160 +6,215 @@
     definida como "pt-br" usando o atributo "lang".
 -->
 <!DOCTYPE html>
-    <html lang="pt-br">
+<html lang="pt-br">
 <!--
     Dentro do <head>, é especificado o conjunto de caracteres usados ​​pelo 
     documento e o título da página é definido com uma tag <title>. Em 
     seguida, o conteúdo do corpo do documento é definido dentro da tag 
     <body>.
 -->
-    <head>
-        <meta charset="UTF-8">
-        <title>Exemplo de código semântico HTML</title>
-    </head>
-    <body>
-<!--
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Projeto dindin</title>
+    <script defer src="scripts.js"></script>
+    <script defer src="contato.html"></script>
+    <script defer src="blog.html"></script>
+    <script defer src="cursos.html"></script>
+</head>
+
+<body>
+    <!--
     Dentro da tag <header>, há um logotipo e um menu de navegação que 
     utiliza as tags <nav>e <ul>para criar uma lista de links. O atributo 
     roleé usado para indicar o papel da lista, enquanto o atributo 
     aria-levelé usado para indicar o nível de autoridade do menu.
 -->
-    <header>
-        <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
-        <h1>Meu Site</h1>
-      <nav role="navigation" aria-level="main navigation">
-        <ul role="menu">
-          <li><a href="#" role="menuitem">CURSOS</a></li>
-          <li><a href="#" role="menuitem">BLOG</a></li>
-          <li><a href="#" role="menuitem">CONTATO</a></li>
-        </ul>
-      </nav>
+    <header class="header">
+        <div class="logo">
+            <a href="#">
+                <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
+            </a>
+            <p>dindin</p>
+        </div>
+        <nav role="navigation" aria-level="main navigation" class="nav">
+            <ul role="menu" class="menu">
+                <li><a href="./cursos.html" role="menuitem">CURSOS</a></li>
+                <li><a href="./blog.html" role="menuitem">BLOG</a></li>
+                <li><a href="./contato.html" role="menuitem">CONTATO</a></li>
+            </ul>
+        </nav>
     </header>
-<!--
+
+    <!--
     O conteúdo principal do site é definido dentro da tag <main>. Existem 
     várias seções de conteúdo, cada uma envolvida em uma tag <section>. 
     Cada seção contém um título <h2>, um ou mais cartões <section>que possuem 
     uma imagem e um conteúdo de descrição <article>.
 -->
     <main role="main">
-        <div>
-            <article>
-                <h2>Educação <br> Financeira <br>
-                    é tudo de bom
-                </h2>
-                <p>Vem comigo que te mostro <br>
-                    por onde começar
-                </p>
-                <button aria-label="Button A" aria-labelledby="button-label">
+        <section class="secao1">
+            <div class="container1">
+                <h1>Educação Financeira <br> é tudo de bom</h1>
+                <p>Vem comigo que te mostro <br> por onde começar</p>
+                <a class="button2" aria-label="Button A" aria-labelledby="button-label">
                     quero saber mais
-                </button>
-                <img src="imagem.jpg" alt="Descrição da imagem" srcset=""><br><br>
-            </article>
-        </div>
+                </a>
+            </div>
+            <div class="container2">
+                <img class="" src="img/1image.svg" alt="Descrição da imagem" srcset="">
+            </div>
+        </section>
 
-        <div>
-            <section class="card1">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <h3>Título do card</h3>
-                  <p>Descrição do card</p>
-                  <button aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                </article>
-            </section>
-            <section class="card2">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <h3>Título do card</h3>
-                  <p>Descrição do card</p>
-                  <button aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                </article>
-            </section>
-            <section class="card3">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <h3>Título do card</h3>
-                  <p>Descrição do card</p>
-                  <button aria-label="Botão do card" aria-labelledby="button-label">Clique aqui</button>
-                </article>
-            </section>
-        </div>
-      
-        <div>
-            <h2>O QUE FALAM SOBRE NÓS</h2>
-            <section class="card4">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <p>Descrição do card</p>
-                  <label for=""></label>
-                </article>
-            </section>
-            <section class="card5">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                  <p>Descrição do card</p>
-                  <label for=""></label>
-                </article>
-            </section>
-            <section class="card6">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <p>Descrição do card</p>
-                    <label for=""></label>
-                </article>
-            </section>
-            <section class="card7">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <p>Descrição do card</p>
-                    <label for=""></label>
-                </article>
-            </section>
-        </div>
-        
-        <div>
-            <h2>MAIS CONTEÚDO PARA VOCÊ</h2>
-            <section class="card8">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <h2>Título do card</h2>
-                    <p>Descrição do card</p>
-                </article>
-            </section>
-            <section class="card9">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <h2>Título do card</h2>
-                    <p>Descrição do card</p>
-                </article>
-            </section>
-            <section class="card10">
-                <img src="imagem-do-card.jpg" alt="Descrição da imagem do card">
-                <article class="card-body">
-                    <h2>Título do card</h2>
-                    <p>Descrição do card</p>
-                </article>
-            </section>
-            <button aria-label="Botão do card" aria-labelledby="button-label">ver todos os posts</button>
-        </div>
+        <section class="secao2">
+            <div class="cont1">
+                <img src="img/2image.svg" alt="Descrição da imagem do card">
+                <h2 class="title1">Investimentos para iniciantes</h2>
+                <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br> eu fugiat
+                    nulla pariatur.</p>
+                <button class="btn1" aria-label="Botão do card" aria-labelledby="button-label">Começar Agora</button>
+            </div>
+
+            <div class="cont2">
+                <img src="img/3image.svg" alt="Descrição da imagem do card">
+                <p class="title2">Poupando e rendendo</p>
+                <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br> eu fugiat
+                    nulla pariatur.</p>
+                <button class="btn2" aria-label="Botão do card" aria-labelledby="button-label">Começar Agora</button>
+            </div>
+
+            <div class="cont3">
+                <img src="img/4image.svg" alt="Descrição da imagem do card">
+                <p class="title3">Independencia financeira</p>
+                <p>Duis aute irure dolor in reprehenderit <br> in voluptate velit es se cillum dolore <br> eu fugiat
+                    nulla pariatur.</p>
+                <button class="btn3" aria-label="Botão do card" aria-labelledby="button-label">Começar Agora</button>
+            </div>
+        </section>
+
+
+
+
+        <p class="titulo1">O QUE FALAM SOBRE NÓS</p>
+        <section class="secao3">
+            <div class="container-col1">
+                <div class="img1">
+                    <img class="desenho" src="img/5image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text1">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text2">Wally, 25</p>
+                </div>
+
+
+                <div class="img2">
+                    <img class="desenho" src="img/6image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text3">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text4">Wally, 25</p>
+                </div>
+            </div>
+
+            <div class="container-col2">
+
+                <div class="img3">
+                    <img class="desenho" src="img/7image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text5">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text6">Wally, 25</p>
+                </div>
+
+                <div class="img4">
+                    <img class="desenho" src="img/8image.svg" alt="Descrição da imagem do card">
+                </div>
+                <div class="card">
+                    <p class="card-text7">
+                        ”Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam.”
+                    </p>
+                    <p class="card-text8">Wally, 25</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="secao4">
+            <p class="titulo2">MAIS CONTEÚDO PARA VOCÊ</p>
+            <div class="linha1">
+                <div class="colum1">
+                    <img class="foto1" src="./img/img-finance1.jpg" alt="Descrição">
+                    <p class="titulo3">Itaque earum rerum</p>
+                    <p class="text9">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+                        consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+                <div class="colum2">
+                    <img class="foto2" src="./img/img-finance2.jpg" alt="Descrição">
+                    <p class="titulo4">Itaque earum rerum</p>
+                    <p class="text10">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+                        consequatur aut perferendis doloribus asperiores repellat.</p>
+                </div>
+                <div class="colum3">
+                    <img class="foto3" src="./img/img-finance3.jpg" alt="Descrição">
+                    <p class="titulo5">Itaque earum rerum</p>
+                    <p class="text11">hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias
+                        consequatur aut perferendis doloribus asperiores repellat.</p>
+
+                </div>
+            </div>
+            <div class="ver-posts">
+                <a aria-label="Button A" aria-labelledby="button-label">
+                    ver todos os posts
+                </a>
+            </div>
+        </section>
+
+
     </main>
-<!--
+    <!--
     Finalmente, o rodapé é definido dentro da tag <footer>. Há um logotipo
     e algumas informações básicas sobre o site, seguidos por uma lista de 
     links usando uma tag <ul>.
 -->
-    <footer>
-            <img src="imagem.jpg" alt="Descrição da imagem" srcset="">
-            <label for="">dindin</label>
-            <p>educação financeira</p>
-            <ul>
-                <li><a href="#">CURSOS</a></li>
-                <li><a href="#">BLOG</a></li>
-                <li><a href="#">CONTATO</a></li>
-            </ul>
-            <button aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</button>
-            <button aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</button>
-        </footer>
-    </body>
+
+    <footer class="footer">
+        <div class="container3">
+            <img class="img-1" src="img/dindin-logo-white.svg" alt="Descrição da imagem" srcset="">
+            <div class="container4">
+                <p class="dindin">dindin</p>
+                <p class="edu-finan">educação financeira</p>
+            </div>
+        </div>
+
+        <div class="container5">
+
+            <a href="#">CURSOS</a>
+            <a href="#">BLOG</a>
+            <a href="#">CONTATO</a>
+
+        </div>
+
+        <div class="container6">
+            <a class="text12" aria-label="Botão do card" aria-labelledby="button-label">quero ser prof</a>
+            <a class="text13" aria-label="Botão do card" aria-labelledby="button-label">aqui tem outro link</a>
+        </div>
+    </footer>
+</body>
 <!--
     As imagens são adicionadas usando uma tag <img>. Atributos como altsão 
     usados ​​para descrever uma imagem para fins de acessibilidade, enquanto o
@@ -172,4 +227,5 @@
     atributo aria-labelledbyé usado para vincular a descrição do botão a uma 
     etiqueta correspondente.
 -->
+
 </html>

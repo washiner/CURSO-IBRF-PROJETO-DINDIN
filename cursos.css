@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.curso-text1 {
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    margin-top: 81px;
+    margin-left: 82px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+
+    text-transform: capitalize;
+
+    color: #FF4081;
+}
+
+.curso-text2 {
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 267px;
+    margin-left: 82px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+
+    color: #555555;
+}
+
+
+.curso-img1 {
+    margin-left: 113px;
+    margin-top: 95px;
+    display: flex;
+}
+
+.curso-container1 {
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.curso-text3 {
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+.curso-text4 {
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+    margin-top: 37px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.curso-text5 {
+    width: 216px;
+    text-decoration: none;
+    padding: 15px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #419488;
+    border-radius: 62px;
+}
+
+.linha {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+    width: 1250px;
+    height: 5px;
+    background: #C4C4C4;
+}
+
+
+
+
+
+
+
+
+.curso-img02 {
+    margin-left: 163px;
+    margin-top: 95px;
+    display: flex;
+   
+}
+
+.curso-container02 {
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.curso-text04 {
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+.curso-text05 {
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+    margin-top: 37px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.curso-text06 {
+    width: 216px;
+    text-decoration: none;
+    padding: 15px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #419488;
+    border-radius: 62px;
+}
+
+.linha {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 68px;
+    width: 1250px;
+    height: 5px;
+    background: #C4C4C4;
+}
+
+
+
+
+
+
+
+.curso-img003 {
+    margin-left: 183px;
+    margin-top: 95px;
+    display: flex;
+}
+
+.curso-container004 {
+    margin-left: 94px;
+    display: flex;
+    flex-direction: column;
+}
+
+.curso-text005 {
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+
+    color: #FF4081;
+}
+
+.curso-text006 {
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+    margin-top: 37px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.curso-text007 {
+    width: 216px;
+    text-decoration: none;
+    padding: 15px;
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #419488;
+    border-radius: 62px;
+    margin-bottom: 200px;
+}
+
+
+
+
+

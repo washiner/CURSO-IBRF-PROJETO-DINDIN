@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="modal.css" >         
+        <script defer src="modal.js"></script>
+    </head>
+    <body>     
+​
+    <br>  
+    
+    <div>
+        <h2>Adivinhar Idade com base no seu nome</h2>
+    
+        <form id="age-form">
+            <input id="name" type="text" size="30" />            
+            <input  type="submit" value="Adivinhar" />
+        </form>
+​
+        <br>
+       
+​
+    <div>
+        Acho que sua idade deve ser:  <span id="age-value"> <b>-</b></span></div>
+    </div>
+    <br>
+​
+    <h2>Modal</h2>
+    <button id="myBtn">Botão para Abrir Modal</button>   
+​
+​
+        <!-- O Modal -->
+        <div id="myModal" class="modal">
+​
+            <!-- Modal -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                
+                <div>
+                    <p>Conteúdo do Modal </p>
+                    <img ID="img_logo" src="Imagens/img_modal.PNG">
+​
+                </div>            
+            
+            </div>
+        
+        </div>
+        
+        <script type="text/javascript" src="index.js"></script>  
+        <script type="text/javascript" src="modal.js"></script>  
+    </body>
+</html>
