@@ -1,34 +1,12 @@
-<!--
-    Este é um exemplo de código HTML semântico que descreve o conteúdo de uma
-    página da web. O código começa com uma declaração <!DOCTYPE html>para 
-    especificar a versão do HTML que está sendo usado. Em seguida, uma tag 
-    <html>é usada para envolver todo o código HTML e a linguagem padrão é 
-    definida como "pt-br" usando o atributo "lang".
--->
 <!DOCTYPE html>
 <html lang="pt-br">
-<!--
-    Dentro do <head>, é especificado o conjunto de caracteres usados ​​pelo 
-    documento e o título da página é definido com uma tag <title>. Em 
-    seguida, o conteúdo do corpo do documento é definido dentro da tag 
-    <body>.
--->
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Projeto dindin</title>
-    <script defer src="scripts.js"></script>
-    <script defer src="contato.html"></script>
-    <script defer src="blog.html"></script>
-    <script defer src="cursos.html"></script>
 </head>
-
 <body>
     <!--
     Dentro da tag <header>, há um logotipo e um menu de navegação que 
@@ -39,15 +17,15 @@
     <header class="header">
         <div class="logo">
             <a href="#">
-                <img src="img/dindin-logo-white.svg" alt="Descrição da imagem">
+                <img class="logo-1" src="img/dindin-logo-white.svg" alt="Descrição da imagem">
             </a>
             <p>dindin</p>
         </div>
         <nav role="navigation" aria-level="main navigation" class="nav">
             <ul role="menu" class="menu">
-                <li><a href="./cursos.html" role="menuitem">CURSOS</a></li>
-                <li><a href="./blog.html" role="menuitem">BLOG</a></li>
-                <li><a href="./contato.html" role="menuitem">CONTATO</a></li>
+                <li><a href="./html/cursos.html" role="menuitem">CURSOS</a></li>
+                <li><a href="./html/blog.html" role="menuitem">BLOG</a></li>
+                <li><a href="./html/contato.html" role="menuitem">CONTATO</a></li>
             </ul>
         </nav>
     </header>
@@ -178,7 +156,7 @@
                 </div>
             </div>
             <div class="ver-posts">
-                <a aria-label="Button A" aria-labelledby="button-label">
+                <a href="./html/post.html" aria-label="Button A" aria-labelledby="button-label">
                     ver todos os posts
                 </a>
             </div>
@@ -194,7 +172,7 @@
 
     <footer class="footer">
         <div class="container3">
-            <img class="img-1" src="img/dindin-logo-white.svg" alt="Descrição da imagem" srcset="">
+            <a href="./index.html"><img class="img-1" src="img/dindin-logo-white.svg" alt="Descrição da imagem" srcset=""></a>
             <div class="container4">
                 <p class="dindin">dindin</p>
                 <p class="edu-finan">educação financeira</p>
@@ -203,9 +181,9 @@
 
         <div class="container5">
 
-            <a href="#">CURSOS</a>
-            <a href="#">BLOG</a>
-            <a href="#">CONTATO</a>
+            <a href="./html/cursos.html">CURSOS</a>
+            <a href="./html/blog.html">BLOG</a>
+            <a href="./html/contato.html">CONTATO</a>
 
         </div>
 
@@ -215,17 +193,4 @@
         </div>
     </footer>
 </body>
-<!--
-    As imagens são adicionadas usando uma tag <img>. Atributos como altsão 
-    usados ​​para descrever uma imagem para fins de acessibilidade, enquanto o
-    atributo srcseté usado para especificar uma lista de imagens para 
-    diferentes evitar de tela.
--->
-<!--
-    Há também vários botões no código que usam o atributo aria-labelpara 
-    descrever o objetivo do botão para fins de acessibilidade, enquanto o 
-    atributo aria-labelledbyé usado para vincular a descrição do botão a uma 
-    etiqueta correspondente.
--->
-
 </html>
