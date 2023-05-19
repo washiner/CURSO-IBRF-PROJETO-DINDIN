@@ -25,18 +25,14 @@ Esse projeto foi desenvolvido com React
 ## 💻 Projeto
 
 Introdução:
-Este projeto teve como objetivo criar uma aplicação web em React para uma pizzaria que exibe uma lista de pizzas. O projeto tem como objetivo ensinar o uso de setState, props e componentes em React.
+O projeto proposto em aula consiste na criação colaborativa de um site dinâmico, utilizando as linguagens HTML, CSS e JavaScript. Os participantes envolvidos são Washiner, Bruno, Sarlete e Antonio.
 
-Desenvolvimento:
-O projeto foi criado seguindo as melhores práticas de desenvolvimento em React. Primeiramente, o ambiente de desenvolvimento foi configurado usando Create React App. Em seguida, foram criados componentes para exibir a lista de pizzas, exibir informações sobre as pizzas individuais disponíveis. As informações das pizzas foram obtidas por meio de um componente simulando uma API ou Banco de dados.
+O objetivo principal é desenvolver um site interativo e personalizado, que ofereça uma experiência envolvente aos usuários. Para isso, serão aplicados os recursos das três linguagens, combinando a estruturação do HTML, a estilização do CSS e as funcionalidades dinâmicas do JavaScript.
 
-Foram utilizadas as propriedades "props" para passar dados entre os componentes. Por exemplo, o componente PizzaList recebeu uma matriz de objetos de pizza como propriedade e renderizou o componente Pizza para cada objeto de pizza.
+Cada participante terá um papel específico no desenvolvimento do projeto. O Washiner ficará encarregado da estruturação do site, utilizando HTML para definir a organização e os elementos da página. O Bruno será responsável pela estilização visual, aplicando técnicas avançadas de CSS para criar um layout atrativo e responsivo. A Sarlete assumirá o desenvolvimento das funcionalidades interativas, utilizando JavaScript para adicionar recursos como animações, validações de formulários e interações com o usuário. O Antonio se juntará ao time como um colaborador adicional, auxiliando nas etapas de design e implementação.
 
-Além disso, o estado foi utilizado apenas no NavBar para manter a usabilidade em relação os dispositivos moveis para melhor atender ao usuário mantendo assim a aplicação responsiva.
+Será estabelecida uma metodologia de trabalho colaborativo, com reuniões regulares para discutir ideias, compartilhar o progresso e resolver desafios encontrados. Cada participante trará suas habilidades e conhecimentos individuais para contribuir com o projeto, promovendo uma troca enriquecedora de experiências.
 
-Resultados:
-O projeto foi concluído com sucesso, atingindo todos os objetivos propostos. Aprendemos o uso de setState, props e componentes em React, criando um aplicativo funcional e personalizado para a pizzaria. também aprimoramos nossas habilidades em JSX e desenvolvimento web em geral.
+O projeto será dividido em fases e terá metas e prazos estabelecidos, a fim de garantir um progresso constante e uma entrega final dentro do prazo determinado. Durante o processo de criação, serão realizados testes e ajustes para assegurar a qualidade do site, sua usabilidade e sua compatibilidade com diferentes dispositivos e navegadores.
 
-Conclusão:
-O projeto em React da pizzaria foi um sucesso para o aprendizado do setState, props e componentes. Aprendemos os conceitos fundamentais de React e aplicá-los para criar um aplicativo útil e funcional. este projeto nos prepara para projetos mais complexos em React e outras tecnologias relacionadas ao desenvolvimento web.
-
+Ao final do projeto, espera-se ter um site completo e funcional, com um design moderno, recursos interativos e uma experiência de usuário satisfatória. O projeto servirá como uma oportunidade de aprendizado e aperfeiçoamento das habilidades em HTML, CSS e JavaScript, permitindo aos participantes expandir seus conhecimentos e criar um portfólio relevante na área de desenvolvimento web.
