@@ -3,7 +3,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
-![projeto-dindin](https://github.com/washiner/CURSO-IBRF-PROJETO-DINDIN/assets/50848988/50bd3294-62b4-4747-9320-3cea924e87c7)
+![projeto-dindin](https://github.com/washiner/CURSO-IBRF-PROJETO-DINDIN/assets/50848988/73c42717-4210-4226-86c4-7158a505e32c)
 
 <br>
 
