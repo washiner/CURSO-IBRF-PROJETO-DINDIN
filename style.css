@@ -14,7 +14,7 @@
   align-items: center;
   text-align: center;
   height: 117px;
-  max-width: 100%;
+  width: 100%;
   left: 0;
   top: 0;
 }
@@ -127,6 +127,13 @@
 
   border: 2px solid #FF4081;
   border-radius: 62px;
+  transition: 150ms linear;
+}
+
+.container1 a:hover {
+  color: #009688;
+  font-size: 28px;
+  border: 2px solid #009688;
 }
 
 .container2 {
@@ -165,7 +172,7 @@
   text-align: center;
   color: #FF4081;
 
-  width: 344px;
+  width: 444px;
   height: 29px;
   margin-top: 40px;
   margin-bottom: 20px;
@@ -183,10 +190,6 @@
 }
 
 .btn1 {
-  width: 216px;
-  height: 20.27px;
-  left: 193px;
-  top: 1406px;
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
@@ -202,6 +205,15 @@
   border-radius: 62px;
   border: none;
   margin-top: 22px;
+  transition: 110ms linear;
+}
+
+.btn1:hover {
+  background: #009688;
+  font-size: 21px;
+  color: #201f1f;
+  width: 245px;
+
 }
 
 .cont2 {
@@ -246,7 +258,19 @@
   border-radius: 62px;
   border: none;
   margin-top: 22px;
+  transition: 110ms linear;
 }
+
+
+
+.btn2:hover {
+  background: #009688;
+  font-size: 21px;
+  color: #201f1f;
+  width: 245px;
+}
+
+
 
 .cont3 {
   margin-right: 187px;
@@ -290,6 +314,15 @@
   border-radius: 62px;
   border: none;
   margin-top: 22px;
+  transition: 110ms linear;
+}
+
+
+.btn3:hover {
+  background: #009688;
+  font-size: 21px;
+  color: #201f1f;
+  width: 245px;
 }
 
 .secao3 {
@@ -509,6 +542,7 @@
   font-weight: 700;
   font-size: 37px;
   line-height: 50px;
+  padding-top: 40px;
 
   color: #009688;
 }
@@ -619,7 +653,16 @@
   border-radius: 62px;
   width: 268px;
   padding: 8px 30px;
+  transition: 150ms linear;
 }
+
+
+.ver-posts a:hover {
+  color: #009688;
+  font-size: 28px;
+  border: 2px solid #009688;
+}
+
 
 .footer {
   background: #009688;
@@ -721,4 +764,10 @@
   padding: 10px;
   text-align: center;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
 }

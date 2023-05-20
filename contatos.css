@@ -62,6 +62,13 @@ textarea {
     border: none;
     margin-top: 18px;
     margin-bottom: 100px;
+    transition: 150ms linear;
+}
+
+.contato-btn:hover {
+  background-color: #f86495;
+  font-size: 21px;
+  width: 140px;
 }
 
 .contato-img {
