@@ -15,7 +15,7 @@
 
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com React
+Esse projeto foi desenvolvido com:
 
 - HTML
 - CSS
