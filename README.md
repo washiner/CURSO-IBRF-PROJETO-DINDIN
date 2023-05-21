@@ -8,7 +8,7 @@
 <br>
 
 <p align="center"> Para visualizar o projeto no seu navegador:
-  <a href="https://project-dindin.netlify.app/"> Click Aqui <a/>
+  <a href="https://projeto-dindin.netlify.app/"> Click Aqui <a/>
 </p>
 
 <br>
