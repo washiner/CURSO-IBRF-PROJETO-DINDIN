@@ -1,10 +1,9 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
 .header {
@@ -26,7 +25,7 @@
   width: 69px;
   height: 71px;
   margin-left: 160px;
-  
+
 }
 
 .logo-1 {
@@ -766,8 +765,175 @@
   color: #FFFFFF;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
+  .header {
+    display: block;
+    width: 100vh;
+    height: 200px;
+  }
 
+  .menu {
+    display: none;
+
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+  }
+
+  .container1 h1 {
+    width: 288px;
+    height: 116px;
+    margin-left: 40px;
+    font-size: 30px;
+  }
+
+  .container1 p {
+    width: 462px;
+    height: 62px;
+    left: 207px;
+    top: 477px;
+    margin-left: 40px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    font-size: 17px;
+  }
+
+  .container1 a {
+
+    margin-left: 50px;
+    font-size: 15px;
+    width: 178px;
+    height: 51px;
+    padding: 6px 20px;
+  }
+
+  .foto-index {
+    width: 350px;
+  }
+
+  .secao1 {
+    display: block;
+  }
+
+  .secao2 {
+    display: block;
+    height: 1200px;
+    margin-bottom: 400px;
+
+  }
+
+  .cont1 {
+    margin-left: 56px;
+
+  }
+
+  .btn1 {
+    margin-top: 22px;
+    margin-bottom: 20px;
+  }
+
+  .cont2 {
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .title2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .btn2 {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 22px;
+  }
+
+  .cont3 {
+    margin-right: 187px;
+    text-align: center;
+  }
+
+  .title3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .btn3 {
+    margin-top: 22px;
+  }
+
+
+  .secao3 {
+    display: block;
+    height: 1100px;
+  }
+
+  .container-col1 {
+    display: block;
+  }
+
+  .container-col2 {
+    display: block;
+  }
+
+  .secao4 {
+    display: block;
+    height: 1800px;
+  }
+
+  .colum1 {
+    display: block;
+  }
+
+  .colum2 {
+
+    display: block;
+  }
+
+  .colum3 {
+    display: block;
+  }
+
+  .linha1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .footer {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+
+  .container5 {
+    display: none;
+  }
+
+  .container6 {
+    margin-left: 100px;
+  }
 
 }

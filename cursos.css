@@ -412,3 +412,142 @@
   border: 3px solid #419488;
   background-color: #FF4081;
 }
+
+
+
+@media(min-width: 390px) and (max-width: 844px){
+  .curso-img1{
+  display: block;
+  }
+  .secao2{
+    display: block;
+  }
+  /*Pagina Cursos*/
+  .curso-text1{
+    font-size: 32px;
+    text-align: left;
+    margin-left: 47px;
+  }
+
+  .img-5{
+    width: 216px;
+    margin: 0 auto;
+  }
+
+  .img-4{
+    width: 216px;
+    margin: 0 auto;
+    margin-left: 76px;
+  }
+
+  .img-4{
+    width: 216px;
+    margin: 0 auto;
+    margin-left: 76px;
+  }
+
+  .curso-img1{
+    width: 251px;
+    display: block;
+    margin-left: 12px;
+    margin-left: 48px;
+  }
+  .curso-container1{
+    margin-left: -28px;
+  }
+  .curso-text2{
+    margin-left: 48px;
+  }
+  .curso-text3{
+    font-size: 20px;
+    text-align: left;
+  }
+  .curso-text3{
+    text-align: left;
+    margin: 0 auto;
+  }
+  .curso-text4{
+    width: 290px;
+    font-size: 13px;
+  }
+  .curso-text5{
+    margin-top: 64px;
+  }
+
+  .curso-text06{
+    margin-top: 64px;
+  }
+
+  .curso-text04{
+    font-size: 26px;
+  }
+
+  .curso-text05{
+    width: 290px;
+    font-size: 13px;
+  }
+  .curso-img1{
+    display: block;
+    
+  }
+  .curso-img02{
+    width: 251px;
+    display: block;
+    margin-left: -44px;
+  }
+
+  .curso-text04{
+    width: 290px;
+    font-size: 20px;
+  }
+  .curso-img003{
+    width: 251px;
+    display: block;
+    margin-left: -44px;
+  }
+  .curso-text005{
+    width: 290px;
+    font-size: 13px;
+  }
+  .curso-container004{
+    margin-left: 64px;
+    font-size: 15px;
+  }
+  .curso-text006{
+    width: 290px;
+    font-size: 13px;
+  }
+  .curso-text007{
+    margin-top: 64px;
+  }
+  .footer{
+    margin-top: -137px;
+    display: block;
+    height: 50vh;
+    
+  }
+
+  .container3{
+    margin: 0 auto;
+  }
+  .container5 a{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container6{
+    margin: 0 auto;
+  }
+
+  .container6 a{
+    display: block;
+    width: 76%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: 83px;
+  }
+
+  .container5{
+    margin: 20px 0px;
+  }
+}
