@@ -316,7 +316,6 @@
   transition: 110ms linear;
 }
 
-
 .btn3:hover {
   background: #009688;
   font-size: 21px;
@@ -344,7 +343,6 @@
   color: #009688;
 }
 
-
 .container-col1 {
   display: flex;
   align-items: center;
@@ -362,7 +360,6 @@
 }
 
 .img1 {
-
   width: 104px;
   height: 104px;
   background: #FFFFFF;
@@ -438,7 +435,6 @@
 }
 
 .img3 {
-
   width: 104px;
   height: 104px;
 
@@ -476,7 +472,6 @@
 }
 
 .img4 {
-
   width: 104px;
   height: 104px;
 
@@ -513,8 +508,6 @@
 
   color: #000000;
 }
-
-
 
 .secao4 {
   width: 100vw;
@@ -765,6 +758,25 @@
   color: #FFFFFF;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
 
   .header {
@@ -788,7 +800,7 @@
   .container1 h1 {
     width: 288px;
     height: 116px;
-    margin-left: 40px;
+    margin-left: 100px;
     font-size: 30px;
   }
 
@@ -797,7 +809,7 @@
     height: 62px;
     left: 207px;
     top: 477px;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 9px;
     margin-bottom: 20px;
     font-size: 17px;
@@ -805,31 +817,46 @@
 
   .container1 a {
 
-    margin-left: 50px;
+    margin-left: 140px;
+    text-align: center;
     font-size: 15px;
-    width: 178px;
+    width: 170px;
     height: 51px;
-    padding: 6px 20px;
+    padding: 6px 0px;
   }
 
   .foto-index {
     width: 350px;
+    margin-left: 55px;
+  }
+  .foto1{
+    margin-top: -36px;
+  }
+  .foto2{
+    margin-top: -36px;
+  }
+  .foto3{
+    margin-top: -36px;
   }
 
   .secao1 {
     display: block;
   }
 
-  .secao2 {
-    display: block;
-    height: 1200px;
-    margin-bottom: 400px;
-
+  .titulo1 {
+    margin-left: 46px;
+    font-size: 28px;
   }
 
-  .cont1 {
-    margin-left: 56px;
+  .titulo2{
+    margin-top: -67px;
+    margin-left: 32px;
+  }
 
+  .secao2 {
+    display: block;
+    height: 1550px;
+    margin-bottom: 400px;
   }
 
   .btn1 {
@@ -837,14 +864,11 @@
     margin-bottom: 20px;
   }
 
-  .cont2 {
-    margin-left: 0px;
-    text-align: center;
+  .title2{
+    margin-left: 55px;
   }
-
-  .title2 {
-    margin-top: 40px;
-    margin-bottom: 20px;
+  .title3{
+    margin-left: 55px;
   }
 
   .btn2 {
@@ -860,45 +884,51 @@
     text-align: center;
   }
 
-  .title3 {
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-
   .btn3 {
     margin-top: 22px;
   }
 
-
   .secao3 {
-    display: block;
-    height: 1100px;
+    height: 1130px;
+    margin-top: 10px;
   }
 
-  .container-col1 {
+  .container-col1{
     display: block;
+    margin-left: 37px;
+  }
+  .container-col2{
+    display: block;
+    margin-left: 37px;
   }
 
-  .container-col2 {
-    display: block;
+  .img1 {
+    margin-left: 120px;
+  }
+
+  .img3 {
+    margin-left: 120px;
   }
 
   .secao4 {
     display: block;
     height: 1800px;
   }
-
-  .colum1 {
-    display: block;
+  .text9{
+    margin-bottom: -75px;
+  }
+  .text10{
+    margin-bottom: -75px;
   }
 
-  .colum2 {
-
-    display: block;
+  .colum1{
+    margin-left: 30px;
   }
-
-  .colum3 {
-    display: block;
+  .colum2{
+    margin-left: 30px;
+  }
+  .colum3{
+    margin-left: 30px;
   }
 
   .linha1 {
@@ -907,19 +937,35 @@
     margin-bottom: 40px;
   }
 
-  .footer {
-    display: block;
-    justify-content: center;
-    align-items: center;
+  .footer{
     height: 300px;
+    margin-top: -296px;
   }
 
-  .container5 {
-    display: none;
+  .container3{
+    margin-left: 28px;
+    padding-top: 30px;
+  }
+  .container6{
+    margin-left: 52px;
+    padding-top: 30px;
+  }
+  .container5{
+    display: block;
+    margin-left: 135px;
+    padding: 20px;
   }
 
-  .container6 {
-    margin-left: 100px;
+  .cont3 {
+    margin-top: 20px;
+    margin-left: 150px;
   }
 
+  .cont2 {
+    margin-right: 0px;
+  }
+  
+  .cont1 {
+    margin-left: 6px;
+  }
 }
