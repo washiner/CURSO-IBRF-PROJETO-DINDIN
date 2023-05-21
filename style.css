@@ -867,9 +867,6 @@
   .title2{
     margin-left: 55px;
   }
-  .title3{
-    margin-left: 55px;
-  }
 
   .btn2 {
     font-family: 'Ubuntu';
@@ -880,12 +877,13 @@
   }
 
   .cont3 {
-    margin-right: 187px;
-    text-align: center;
+    margin-right: 100px;
+    border: 1px solid red;
   }
 
   .btn3 {
     margin-top: 22px;
+    margin-right: 10px;
   }
 
   .secao3 {
@@ -937,17 +935,12 @@
     margin-bottom: 40px;
   }
 
-  .footer{
-    height: 300px;
-    margin-top: -296px;
-  }
-
   .container3{
     margin-left: 28px;
     padding-top: 30px;
   }
   .container6{
-    margin-left: 52px;
+    margin-left: 90px;
     padding-top: 30px;
   }
   .container5{
@@ -967,5 +960,12 @@
   
   .cont1 {
     margin-left: 6px;
+  }
+
+  .footer{
+    margin-top: -137px;
+    display: block;
+    text-align: start;
+    height: 50vh;
   }
 }
